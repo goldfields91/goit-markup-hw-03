@@ -1,4 +1,17 @@
 
+html {box-sizing: border-box;}
+
+*,
+*::after,
+*::before {box-sizing: inherit;}
+
+body {background-color:var(--main-header-color);
+color: var(--primary-text-color);
+font-weight: 400;
+letter-spacing: 0.03em;
+margin: 0;
+font-family: 'Roboto', sans-serif,'Raleway', sans-serif;}
+
 :root{
   --primary-text-color: #212121 ;
   --logo-color: #000000;
@@ -11,15 +24,6 @@
   --logo-footer-color: #2196F3;
   
 }
-
-body {background-color:var(--main-header-color);
-color: var(--primary-text-color);
-font-weight: 400;
-letter-spacing: 0.03em;
-margin: 0;
-font-family: 'Roboto', sans-serif,'Raleway', sans-serif;}
-
-
 
                /* title Студія*/
 
